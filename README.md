@@ -8,4 +8,4 @@ GNL `(get_next_line)` читает строчку за строчкой из ф�
 Компиляция будет выполняться следующим образом: `gcc -Wall -Wextra -Werror BUFFER_SIZE=32 get_next_line.c get_next_line_utils.c`
 где BUFFER_SIZE не обязательно указывать.
   
-**Автор:** *[Mark Veligod](https://github.com/markveligod)*
+**Автор:** *[Andrey Belenov](https://github.com/luchikAR)*
