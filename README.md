@@ -1,13 +1,11 @@
 # :white_check_mark: Get next line (GNL project 2021)
-## TASK
-Write an GNL `(get_next_line)` that reads line by line from the file descriptor.  
-This function should not contain third-party libraries `(Libft)` and write all necessary additional functions in `get_next_line_utils.c`.
-Calling your get_next_line function in a loop will allow you to read the text available in the file descriptor one line at a time until EOF.
-## Results tested by "42TESTERS-GNL"  
-![](https://github.com/markveligod/GNL/raw/master/img/1.png)
+## Описание
+GNL `(get_next_line)` читает строчку за строчкой из файлового дескриптора.  
+Эта функция не должна содержать сторонних библиотек (Libft) и записывать все необходимые дополнительные функции в `get_next_line_utils.c`.
+Вызов вашей get_next_line функции в цикле позволит вам читать текст, доступный в файловом дескрипторе, по одной строке за раз до EOF.
 
-Link: [click](https://github.com/Mazoise/42TESTERS-GNL.git)  
-## Other
-Compilation will be performed as follows: `gcc -Wall -Wextra -Werror -D BUFFER_SIZE=32 get_next_line.c get_next_line_utils.c`  
+## Запуск
+Компиляция будет выполняться следующим образом: `gcc -Wall -Wextra -Werror BUFFER_SIZE=32 get_next_line.c get_next_line_utils.c`
+где BUFFER_SIZE не обязательно указывать.
   
-**Author:** *[Mark Veligod](https://github.com/markveligod)*
+**Автор:** *[Mark Veligod](https://github.com/markveligod)*
